@@ -1,7 +1,7 @@
 //vars
 var currentQuestion = 0;
 var correctAnswers = 0;
-var playAgain = false;
+var play = false;
 
 //questions
 var questions = [{
@@ -24,6 +24,9 @@ var questions = [{
 
 //
 document.ready(function() {
+
+
+
 
 
 

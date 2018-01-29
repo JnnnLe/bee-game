@@ -1,4 +1,7 @@
 //vars
+var currentQuestion = 0;
+var correctAnswers = 0;
+var playAgain = false;
 
 //questions
 var questions = [{

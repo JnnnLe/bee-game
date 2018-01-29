@@ -14,18 +14,27 @@ var questions = [{
   answer: 0
 }, {
   question: "How long does a Queen bee live before she dies?",
-  selection: ["12 months", "2 years", "5 years", "She's a bad B, you can't kill her." ]
+  selection: ["12 months", "2 years", "5 years", "She's a bad B, you can't kill her." ],
   answer: 2
 }, {
-  question: "How are bees useful in our modern world?"
+  question: "How are bees useful in our modern world?",
   selection: ["Pollination", "Produces honey", "Produces natural fruit sugars, fructose and glucose.", "All of the above"],
   answer: 3
 }];
 
-//
-document.ready(function() {
 
+$(document).ready(function() {
 
+displayQA();
+
+//display Question
+function displayQA() {
+  //iterate through each answer and display each in a div
+  for (var i = 0; i < 4; i++) {
+  $("#currentQuestion").html(questions[currentQuestion].question);
+  $("#answers").append("<div>" + questions[currentQuestion].selection[i] + "</div>");
+  }
+};
 
 
 

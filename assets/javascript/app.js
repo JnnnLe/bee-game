@@ -6,7 +6,7 @@ var play = false;
 //questions
 var questions = [{
   question: "How do bees communicate with one another?",
-  selection: ["Touching antennas", "They don't", "By dancing", "Slack messenger" ],
+  selection: ["Touching antennas.", "Male bees fight one another.", "By dancing.", "Slack messenger." ],
   answer: 2
 }, {
   question: "How many miles must a bee fly in order to produce 1lb of honey?",
@@ -29,12 +29,15 @@ displayQA();
 
 //display Question
 function displayQA() {
-  //iterate through each answer and display each in a div
+  //iterate through each answer and display each in new div
   for (var i = 0; i < 4; i++) {
   $("#currentQuestion").html(questions[currentQuestion].question);
-  $("#answers").append("<div>" + questions[currentQuestion].selection[i] + "</div>");
+  // $("#answers" + questions[currentQuestion].selection[i] + "name='dynradio'/>").append("#fun");
+  $("#answers").append("<button type='button'>" + questions[currentQuestion].selection[i] "</button>");
   }
 };
+
+
 
 
 

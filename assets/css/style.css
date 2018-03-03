@@ -9,3 +9,12 @@ h1 {
   font-size: 55px;
   font-weight: bolder;
 }
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 34px;
+}
+form {
+  text-align: center;
+  font-size: 22px;
+}

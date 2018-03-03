@@ -1,4 +1,11 @@
 body {
-  background-color: lightseagreen;
-  font-weight: bold
+  background-image: url("../images/background.jpeg");
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 55px;
+  font-weight: bolder;
 }

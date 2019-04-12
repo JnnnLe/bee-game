@@ -1,2 +1,2 @@
-# trivia-game
-Single page, multiple choice trivia game with style and class!
+# bee-game
+Single page, multiple choice trivia game all about bees!
